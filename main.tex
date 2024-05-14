@@ -28,9 +28,9 @@
 
 \vspace{10em}
 
-Отчет по лабораторным работам №5-8\\
-по дисциплине\\
-"Математическая статистика"\\
+Отчет по курсовой работе\\
+по дисциплине "Математическая статистика"\\
+по теме "Оценки коэффициентов линейной регрессии"\\
 
 \vspace{2em}
 
@@ -63,7 +63,12 @@
 
 \section{Постановка задачи}
 
-На основе имеющихся данных о выходных значениях вольтметра, изменяющихся с течением времени, при известных входных значениях подаваемого напряжения необходимо получить оценку данной зависимости с использованием метода наименьших квадратов и метода наименьших модулей.
+На основе имеющихся данных о выходных значениях вольтметра, изменяющихся с течением времени, при известных входных значениях подаваемого напряжения необходимо получить оценку данной зависимости с использованием следующих методов:
+\begin{enumerate}
+    \item Метод наименьших квадратов.
+    \item Метод наименьших модулей.
+\end{enumerate}
+Для исследования предоставлен шестой столбец данных. Ссылка на исходный материал: https://disk.yandex.ru/d/OAQgCulS6NfbOQ.
 \section{Используемые теоретические понятия}
 \subsection{Метод наименьших квадратов}
 При оценивании параметров регрессионной модели используют различные
@@ -121,19 +126,189 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \end{equation}\\\\
 \section{Описание работы}
 Лабораторные работы выполнены с использованием Python и сторонних
-библиотек \verb!numpy!, \verb!pandas!, \verb!matplotlib!, \verb!seaborn!.
+библиотек \verb!numpy!, \verb!pandas!, \verb!matplotlib!, \verb!seaborn!. Для каждого значения напряжения данные были обработаны при помощи боксплота Тьюки, для обработанных данных также был построен график исследуемой зависимости.
 
 Ссылка на GitHub репозиторий:\\
 \href{https://github.com/eagerbeaver04/Mathematical-statistics/tree/master/lab3}
-{https://github.com/eagerbeaver04/Mathematical-statistics/tree/master/lab3}
+{https://github.com/vladimir-skvortsov/math-stats-course-work}
 \clearpage
 \section{Результаты}
+\subsection{Напряжение $U = -0.45V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.45Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.45Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
 
+\subsection{Напряжение $U = -0.35V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.35Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.35Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Напряжение $U = -0.25V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.25Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.25Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Напряжение $U = -0.15V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.15Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.15Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Напряжение $U = -0.05V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.05Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/-0.05Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Напряжение $U = 0.0V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.0Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.0Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Напряжение $U = 0.05V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.05Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.05Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Напряжение $U = 0.15V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.15Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.15Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Напряжение $U = 0.25V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.25Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.25Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Напряжение $U = 0.35V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.35Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.35Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Напряжение $U = 0.45V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.45Vhist.png}
+        \caption{Гистограмма распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/0.45Vbox.png}
+        \caption{Боксплот распределения значений выходного напряжения}
+    \end{center}
+\end{figure}
+
+\subsection{Линейная регрессия до предобработки данных}
+\subsection{Напряжение $U = 0.05V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/unfiltered.png}
+        \caption{Полученные прямые для необработанных данных}
+    \end{center}
+\end{figure}
+
+\subsection{Линейная регрессия после предобработки данных}
+\subsection{Напряжение $U = 0.05V$}
+\begin{figure}[htbp!]
+    \begin{center}
+        \includegraphics[width = 1\linewidth]{plots/filtered.png}
+        \caption{Полученные прямые для обработанных данных}
+    \end{center}
+\end{figure}
 
 \section{Выводы}
 \begin{enumerate}
     \item Метод наименьших квадратов позволяет при помощи нетрудоемких вычислений получить коэффициенты линейной регрессии зависимых величин.
-    \item Метод наименьших модулей ...
+    \item Метод наименьших модулей обеспечивает робастность оценок коэффициентов линейной регрессии.
     \item При этом предобработка данных позволяет более точно оценить параметры линейной регрессии. Так, при использовании предобработки из исследуемых данных удаляются выбросы, которые понижают точность полученных без предобработки результатов.
 \end{enumerate}
 \newpage
