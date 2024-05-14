@@ -1,20 +1,25 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \usepackage[utf8]{inputenc}
-\usepackage[russian]{babel}
-\usepackage[pdftex]{graphicx}
-\usepackage{ wasysym }
 \usepackage{amsmath}
-\graphicspath{{.}}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[english, russian]{babel}
+\usepackage{indentfirst}
+\usepackage{listings}
 \usepackage{xcolor}
 \usepackage{hyperref}
-\DeclareGraphicsExtensions{.pdf,.png,.jpg}
-\usepackage{geometry} % Меняем поля страницы
-\geometry{left=2cm}% левое поле
-\geometry{right=3cm}% правое поле
-\geometry{top=1cm}% верхнее поле
-\geometry{bottom=1.5cm}% нижнее поле
-
 \usepackage{array}
+
+\graphicspath{ {./plots/} }
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor= blue,
+    citecolor=blue,
+    linkcolor= blue,
+}
+
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 
 \begin{document}
@@ -59,7 +64,9 @@
 
 \end{titlepage}
 
-\tableofcontents\newpage
+\tableofcontents
+
+\newpage
 
 \section{Постановка задачи}
 
@@ -136,13 +143,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = -0.45V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.45Vhist.png}
+        \includegraphics[width = 1\linewidth]{-0.45Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.45Vbox.png}
+        \includegraphics[width = 1\linewidth]{-0.45Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -150,13 +157,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = -0.35V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.35Vhist.png}
+        \includegraphics[width = 1\linewidth]{-0.35Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.35Vbox.png}
+        \includegraphics[width = 1\linewidth]{-0.35Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -164,13 +171,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = -0.25V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.25Vhist.png}
+        \includegraphics[width = 1\linewidth]{-0.25Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.25Vbox.png}
+        \includegraphics[width = 1\linewidth]{-0.25Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -178,13 +185,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = -0.15V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.15Vhist.png}
+        \includegraphics[width = 1\linewidth]{-0.15Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.15Vbox.png}
+        \includegraphics[width = 1\linewidth]{-0.15Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -192,13 +199,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = -0.05V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.05Vhist.png}
+        \includegraphics[width = 1\linewidth]{-0.05Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/-0.05Vbox.png}
+        \includegraphics[width = 1\linewidth]{-0.05Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -206,13 +213,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = 0.0V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.0Vhist.png}
+        \includegraphics[width = 1\linewidth]{0.0Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.0Vbox.png}
+        \includegraphics[width = 1\linewidth]{0.0Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -220,13 +227,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = 0.05V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.05Vhist.png}
+        \includegraphics[width = 1\linewidth]{0.05Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.05Vbox.png}
+        \includegraphics[width = 1\linewidth]{0.05Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -234,13 +241,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = 0.15V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.15Vhist.png}
+        \includegraphics[width = 1\linewidth]{0.15Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.15Vbox.png}
+        \includegraphics[width = 1\linewidth]{0.15Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -248,13 +255,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = 0.25V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.25Vhist.png}
+        \includegraphics[width = 1\linewidth]{0.25Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.25Vbox.png}
+        \includegraphics[width = 1\linewidth]{0.25Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -262,13 +269,13 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = 0.35V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.35Vhist.png}
+        \includegraphics[width = 1\linewidth]{0.35Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.35Vbox.png}
+        \includegraphics[width = 1\linewidth]{0.35Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
@@ -276,22 +283,52 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = 0.45V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.45Vhist.png}
+        \includegraphics[width = 1\linewidth]{0.45Vhist.png}
         \caption{Гистограмма распределения значений выходного напряжения}
     \end{center}
 \end{figure}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/0.45Vbox.png}
+        \includegraphics[width = 1\linewidth]{0.45Vbox.png}
         \caption{Боксплот распределения значений выходного напряжения}
     \end{center}
 \end{figure}
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{ |c|c|c|c| }
+        \hline
+        -0.05 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        -0.45 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        -0.35 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        0.35 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        -0.25 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        0.05 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        0.15 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        0.45 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        0.0 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        0.25 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+        -0.15 & 190.0 & 4931.0 & 5691.0 \\
+        \hline
+    \end{tabular}
+    \caption{Боксплот Тьюки}
+\end{table}
 
 \subsection{Линейная регрессия до предобработки данных}
 \subsection{Напряжение $U = 0.05V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/unfiltered.png}
+        \includegraphics[width = 1\linewidth]{unfiltered.png}
         \caption{Полученные прямые для необработанных данных}
     \end{center}
 \end{figure}
@@ -300,18 +337,21 @@ X_1 = Q_1 - \frac{3}{2}(Q_3 - Q_1), \ X_2 = Q_3 + \frac{3}{2}(Q_3 - Q_1),
 \subsection{Напряжение $U = 0.05V$}
 \begin{figure}[htbp!]
     \begin{center}
-        \includegraphics[width = 1\linewidth]{plots/filtered.png}
+        \includegraphics[width = 1\linewidth]{filtered.png}
         \caption{Полученные прямые для обработанных данных}
     \end{center}
 \end{figure}
 
+\newpage
+
 \section{Выводы}
+
 \begin{enumerate}
     \item Метод наименьших квадратов позволяет при помощи нетрудоемких вычислений получить коэффициенты линейной регрессии зависимых величин.
     \item Метод наименьших модулей обеспечивает робастность оценок коэффициентов линейной регрессии.
     \item При этом предобработка данных позволяет более точно оценить параметры линейной регрессии. Так, при использовании предобработки из исследуемых данных удаляются выбросы, которые понижают точность полученных без предобработки результатов.
 \end{enumerate}
-\newpage
 
+\newpage
 
 \end{document}
