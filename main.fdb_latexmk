@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1715683658.52173 "/Users/vladimirskvortsov/Projects/spbstu/mathematical-statistics/math-stats-course-work/main.tex" "main.pdf" "main" 1715683659.87569 0
+["pdflatex"] 1715759337.30627 "/Users/vladimirskvortsov/Projects/spbstu/mathematical-statistics/math-stats-course-work/main.tex" "main.pdf" "main" 1715759338.97288 0
   "/Users/vladimirskvortsov/Library/texlive/2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1712594461.4327 3308 eee81981029f67083258db36df06e523 ""
   "/Users/vladimirskvortsov/Library/texlive/2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1712594455.58063 3304 6a543c07045572737981351171e0505e ""
   "/Users/vladimirskvortsov/Library/texlive/2024/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1712609434.25863 3312 d199be9bd555944e2403193d58a0256a ""
@@ -7,7 +7,7 @@
   "/Users/vladimirskvortsov/Library/texlive/2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1712594452.87019 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/Users/vladimirskvortsov/Library/texlive/2024/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1712609430.80928 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/Users/vladimirskvortsov/Library/texlive/2024/texmf-var/fonts/tfm/lh/lh-t2a/latt1200.tfm" 1713214807.503 1272 bf3bb5cc29880b269c8bcb412a1ac6e2 ""
-  "/Users/vladimirskvortsov/Projects/spbstu/mathematical-statistics/math-stats-course-work/main.tex" 1715683656.95704 16224 47f8f72b80c32d2dab0e2057cea698d2 ""
+  "/Users/vladimirskvortsov/Projects/spbstu/mathematical-statistics/math-stats-course-work/main.tex" 1715759337.04382 17704 6744a3b0635b78c13b332ef102fcc3a9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -118,10 +118,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1712424169.32671 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1712424165 8221443 40f9df1b6389ef3c67cee569d869ba2e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1715683659.7669 9183 4fff7a2c4c5d3225e7cfec530e6056bb "pdflatex"
-  "main.out" 1715683659.76841 4957 bab10084bbd962a9257e5f2d56e4d4db "pdflatex"
-  "main.tex" 1715683656.95704 16224 47f8f72b80c32d2dab0e2057cea698d2 ""
-  "main.toc" 1715683659.76882 2395 7ff923aade8e928703e958e6861558f1 "pdflatex"
+  "main.aux" 1715759338.8499 9636 f87962c9652fcfb9eb2453a33177fab5 "pdflatex"
+  "main.out" 1715759338.85143 4561 0770c74b67b050583c9e18e7eb5d756b "pdflatex"
+  "main.tex" 1715759337.04382 17704 6744a3b0635b78c13b332ef102fcc3a9 ""
+  "main.toc" 1715759338.8517 2190 0e66e3c1b9a86e3e2da5ca2ee9ba9a33 "pdflatex"
   "plots/-0.05Vbox.png" 1715682785.40634 9049 7f3d4f6c5e8b3ef81070f7a4fdb25470 ""
   "plots/-0.05Vhist.png" 1715682785.40655 30218 62bc30d71615f289ef056e57fc3f5da0 ""
   "plots/-0.15Vbox.png" 1715682785.40672 7608 41d537d425dd1677cda0b8798546339a ""
@@ -144,8 +144,10 @@
   "plots/0.35Vhist.png" 1715682785.41034 31185 0e676486c49f2d4dd6d65212dc262f7e ""
   "plots/0.45Vbox.png" 1715682785.41052 8877 b0bc4f77517264e065ebb4d3ce73f507 ""
   "plots/0.45Vhist.png" 1715682785.4107 28875 e7b68da6c9044a72b7c75ad5ce426e23 ""
-  "plots/filtered.png" 1715682785.41115 41922 6cfe4e61be50bdc2c5eac42e0c9e056a ""
-  "plots/unfiltered.png" 1715682785.41141 42534 b03ed6fa09add287c22e4453c1d7b16f ""
+  "plots/LAD_filtered.png" 1715759314.94035 113714 c92e4575ec06309588bee970c3a21d9e ""
+  "plots/LAD_unfiltered.png" 1715759314.94124 113261 5c2fb2f5539997cde5530138843d0888 ""
+  "plots/LSM_filtered.png" 1715759314.94303 117243 c866dbda28a83b585b39770f6cdfa299 ""
+  "plots/LSM_unfiltered.png" 1715759314.94404 116761 5160ad76dce476e8d7d42b8d17c4542f ""
   (generated)
   "main.aux"
   "main.log"

@@ -7,18 +7,16 @@
 \contentsline {section}{\numberline {3}Описание работы}{3}{section.3}%
 \contentsline {section}{\numberline {4}Результаты}{4}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Напряжение $U = -0.45V$}{4}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Напряжение $U = -0.35V$}{24}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Напряжение $U = -0.25V$}{24}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Напряжение $U = -0.15V$}{24}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Напряжение $U = -0.05V$}{24}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Напряжение $U = 0.0V$}{24}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Напряжение $U = 0.05V$}{24}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Напряжение $U = 0.15V$}{24}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Напряжение $U = 0.25V$}{24}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Напряжение $U = 0.35V$}{24}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Напряжение $U = 0.45V$}{24}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}Линейная регрессия до предобработки данных}{26}{subsection.4.12}%
-\contentsline {subsection}{\numberline {4.13}Напряжение $U = 0.05V$}{26}{subsection.4.13}%
-\contentsline {subsection}{\numberline {4.14}Линейная регрессия после предобработки данных}{26}{subsection.4.14}%
-\contentsline {subsection}{\numberline {4.15}Напряжение $U = 0.05V$}{26}{subsection.4.15}%
-\contentsline {section}{\numberline {5}Выводы}{27}{section.5}%
+\contentsline {subsection}{\numberline {4.2}Напряжение $U = -0.35V$}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Напряжение $U = -0.25V$}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Напряжение $U = -0.15V$}{7}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Напряжение $U = -0.05V$}{10}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Напряжение $U = 0.0V$}{10}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Напряжение $U = 0.05V$}{10}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Напряжение $U = 0.15V$}{13}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Напряжение $U = 0.25V$}{13}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Напряжение $U = 0.35V$}{13}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Напряжение $U = 0.45V$}{16}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Линейная регрессия до предобработки данных}{16}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}Линейная регрессия после предобработки данных}{16}{subsection.4.13}%
+\contentsline {section}{\numberline {5}Выводы}{17}{section.5}%
